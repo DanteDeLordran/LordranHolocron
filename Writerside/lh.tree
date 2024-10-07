@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="lh"
+                 name="Lordran Holocron"
+                 start-page="starter.md">
+
+    <toc-element topic="starter.md"/>
+    <toc-element topic="Git.md"/>
+    <toc-element topic="Docker.md"/>
+    <toc-element topic="Python.md"/>
+    <toc-element topic="Go.md"/>
+</instance-profile>
