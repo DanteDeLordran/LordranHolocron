@@ -1,17 +1,6 @@
 # Overview
 
-<!--Writerside adds this topic when you create a new documentation project.
-You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
-
-## Add new topics
-You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
-
-![Create new topic options](new_topic_options.png){ width=290 }{border-effect=line}
-
-## Write content
-%product% supports two types of markup: Markdown and XML.
-When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
-You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
+a
 
 ## Inject XML
 For example, this is how you inject a procedure:
@@ -41,15 +30,6 @@ To add switchable content, you can make use of tabs (inject them by starting to 
     </tab>
 </tabs>
 
-### Collapsible blocks
-Apart from injecting entire XML elements, you can use attributes to configure the behavior of certain elements.
-For example, you can collapse a chapter that contains non-essential information:
-
-#### Supplementary info {collapsible="true"}
-Content under a collapsible header will be collapsed by default,
-but you can modify the behavior by adding the following attribute:
-`default-state="expanded"`
-
 ### Convert selection to XML
 If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
 For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
@@ -57,23 +37,8 @@ Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut
 
 <img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
 
-## Feedback and support
-Please report any issues, usability improvements, or feature requests to our
-<a href="https://youtrack.jetbrains.com/newIssue?project=WRS">YouTrack project</a>
-(you will need to register).
+## Feedback
+Please report any issues, improvements, or feature requests to the
+<a href="https://github.com/DanteDeLordran/LordranHolocron">GitHub repo</a>
 
-You are welcome to join our
-<a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.
-Before you do, please read our [Code of conduct](https://plugins.jetbrains.com/plugin/20158-writerside/docs/writerside-code-of-conduct.html).
-We assume that you’ve read and acknowledged it before joining.
-
-You can also always email us at [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
-
-<seealso>
-    <category ref="wrs">
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/markup-reference.html">Markup reference</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/manage-table-of-contents.html">Reorder topics in the TOC</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/local-build.html">Build and publish</a>
-        <a href="https://plugins.jetbrains.com/plugin/20158-writerside/docs/configure-search.html">Configure Search</a>
-    </category>
-</seealso>
+You can also always email me at [dantelopez305@outlook.com](mailto:dantelopez305@outlook.com).
