@@ -46,3 +46,15 @@ filter(my_function, my_list)
 
 filter() takes a function as its first argument and an iterable as its second argument. It returns an iterator, which 
 is a special object that enables you to iterate over the elements of a collection, like a list.
+
+### join()
+
+The join method works by concatenating each element of a list into a string, separated by a designated string, known 
+as the separator.
+
+```Python
+result_string = ''.join(characters)
+```
+
+The example above joins together the elements of the characters list into a single string where each element is 
+concatenated together using an empty string as the separator.
