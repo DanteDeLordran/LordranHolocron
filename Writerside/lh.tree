@@ -23,6 +23,7 @@
         <toc-element topic="Overview.md"/>
         <toc-element topic="Strings.md"/>
         <toc-element topic="Collections-in-Python.md"/>
+        <toc-element topic="Lambdas-in-Python.md"/>
         <toc-element topic="Loops-in-Python.md"/>
         <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="List-comprehention.md"/>

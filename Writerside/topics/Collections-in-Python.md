@@ -35,3 +35,14 @@ fruits_list = ["cherry", "lemon", "tomato", "apple", "orange"]
 fruits_list.pop(2)
 print(fruits_list) # ["cherry", "lemon", "apple", "orange"]
 ```
+
+### filter()
+
+The filter() function allows you to select items from an iterable, such as a list, based on the output of a function:
+
+```Python
+filter(my_function, my_list)
+```
+
+filter() takes a function as its first argument and an iterable as its second argument. It returns an iterator, which 
+is a special object that enables you to iterate over the elements of a collection, like a list.
