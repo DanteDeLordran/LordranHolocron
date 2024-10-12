@@ -4,27 +4,6 @@ Python strings are sequences of characters enclosed in single, double, or triple
 meaning once they are created, they cannot be changed. You can access individual characters using indexing or manipulate 
 strings with various built-in methods.
 
-## Creating Strings
-
-You can create strings using single, double, or triple quotes
-
-```Python
-single_quote = 'Hello, World!'
-double_quote = "Hello, World!"
-triple_quote = '''This is a
-multiline string.'''
-```
-
-## Indexing
-
-Access a character in a string by its position (0-based).
-
-```Python
-text = "Python"
-print(text[0])  # Output: P
-print(text[-1]) # Output: n (last character)
-```
-
 ## Slicing
 
 Extract a substring using a start and end index.
@@ -117,4 +96,23 @@ Joins elements of a list into a string using a specified separator.
 words = ['Hello', 'World!']
 sentence = ", ".join(words)
 print(sentence)  # Output: Hello, World!
+```
+
+## Examples
+
+### Example using join()
+
+```Python
+def convert_to_snake_case(pascal_or_camel_cased_string):
+    snake_cased_char_list = []
+    for char in pascal_or_camel_cased_string:
+        if char.isupper():
+            converted_character = '_' + char.lower()
+            snake_cased_char_list.append(converted_character)
+        else:
+            snake_cased_char_list.append(char)
+    snake_cased_string = ''.join(snake_cased_char_list)
+    clean_snake_cased_string = snake_cased_string.strip('_')
+
+    return clean_snake_cased_string
 ```
