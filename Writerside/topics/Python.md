@@ -1,10 +1,11 @@
 # Python
 
-Python is not my favorite language, in fact I kinda dislike it, but is good for ML, and I do like ML
+Python is not my favorite language, in fact I kinda dislike it and like it at the same time, but is good for ML, 
+and I do like ML
 
 ## Interesting Python behaviour
 
-1. Everything in Python is immutable so you can't do something like this
+1. Strings and numbers in Python are immutable so you can't do something like this
 
     ```Python
     a = 0
@@ -51,3 +52,7 @@ Python is not my favorite language, in fact I kinda dislike it, but is good for 
     Use ```is not ``` when you want to check if two variables are not the same object.
 
     Use ``` not ``` when you need to reverse the boolean value of an expression.
+
+In Python, the is keyword checks for object identity. It's used to determine if two variables point to the same 
+object in memory. In contrast to is, the equality operator (==) determines if the values of two objects are the same, 
+regardless of whether they are the same object in memory.
