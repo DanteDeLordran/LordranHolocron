@@ -9,9 +9,13 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="Git.md">
         <toc-element topic="Git-overview.md"/>
+        <toc-element topic="First-steps.md"/>
     </toc-element>
     <toc-element topic="Linux-Command-Line.md">
         <toc-element topic="About-Linux.md"/>
+        <toc-element topic="Arch.md">
+            <toc-element topic="pacman.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="Docker.md">
         <toc-element topic="Docker-overview.md"/>
@@ -28,8 +32,9 @@
         <toc-element topic="Collections-in-Python.md"/>
         <toc-element topic="Lambdas-in-Python.md"/>
         <toc-element topic="Loops-in-Python.md"/>
-        <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="List-comprehention.md"/>
+        <toc-element topic="REGEX-in-Python.md"/>
+        <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="Object-Oriented-Programming-in-Python.md"/>
         <toc-element topic="Iterators.md"/>
         <toc-element topic="Decorators-in-Python.md"/>

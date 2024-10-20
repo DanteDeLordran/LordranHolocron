@@ -5,12 +5,12 @@ and I do like ML
 
 ## Interesting Python behaviour
 
-1. Strings and numbers in Python are immutable so you can't do something like this
+1. Mutability 
 
-    ```Python
-    a = 0
-    a++
-    ```
+    Immutable: strings, tuples, integers, booleans
+
+    Mutable: list, dictionaries
+
     So the way you want to increment the value of an integer is by
     
     ```Python
