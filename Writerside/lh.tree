@@ -12,6 +12,9 @@
     </toc-element>
     <toc-element topic="Linux-Command-Line.md">
         <toc-element topic="About-Linux.md"/>
+        <toc-element topic="Arch.md">
+            <toc-element topic="pacman.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="Docker.md">
         <toc-element topic="Docker-overview.md"/>
@@ -43,6 +46,7 @@
             <toc-element topic="About-PyTorch.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="REGEX-in-Python.md"/>
     <toc-element topic="Go.md">
         <toc-element topic="Go-overview.md"/>
         <toc-element topic="Go-pointers.md"/>

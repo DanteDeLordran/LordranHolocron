@@ -1,8 +1,14 @@
 # Collections in Python
 
-Start typing here...
+## List
 
-## Reverse a collection
+## Tuple
+
+## Dict
+
+## Set
+
+### Reverse a collection
 
 ```Python
 def reverse(collection):
