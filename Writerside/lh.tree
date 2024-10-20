@@ -9,6 +9,7 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="Git.md">
         <toc-element topic="Git-overview.md"/>
+        <toc-element topic="First-steps.md"/>
     </toc-element>
     <toc-element topic="Linux-Command-Line.md">
         <toc-element topic="About-Linux.md"/>
@@ -31,8 +32,9 @@
         <toc-element topic="Collections-in-Python.md"/>
         <toc-element topic="Lambdas-in-Python.md"/>
         <toc-element topic="Loops-in-Python.md"/>
-        <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="List-comprehention.md"/>
+        <toc-element topic="REGEX-in-Python.md"/>
+        <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="Object-Oriented-Programming-in-Python.md"/>
         <toc-element topic="Iterators.md"/>
         <toc-element topic="Decorators-in-Python.md"/>
@@ -46,7 +48,6 @@
             <toc-element topic="About-PyTorch.md"/>
         </toc-element>
     </toc-element>
-    <toc-element topic="REGEX-in-Python.md"/>
     <toc-element topic="Go.md">
         <toc-element topic="Go-overview.md"/>
         <toc-element topic="Go-pointers.md"/>

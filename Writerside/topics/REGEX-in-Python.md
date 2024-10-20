@@ -24,3 +24,6 @@ the class.
 
 In a character class, you can combine multiple ranges by writing one range after another inside the square brackets 
 (without any additional characters). For example: [a-d3-6] is the combination of [a-d] and [3-6].
+
+In the same way the [0-9] class is equivalent to \d, the [^0-9] class is equivalent to \D. Alphanumeric characters 
+can be matched with \w and non-alphanumeric characters can be matched with \W.
