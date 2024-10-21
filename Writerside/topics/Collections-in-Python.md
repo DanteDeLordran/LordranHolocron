@@ -85,5 +85,33 @@ my_dict = {
 my_dict['country'] = 'Canada'
 ```
 
+If you want to be able to go through the key-value pairs, you can use the .items() method.
+
+```Python
+my_dict = {
+    'name': 'Michael',
+    'occupation': 'Lumberjack'
+}
+
+my_dict['country'] = 'Canada'
+for i in copper: # Print keys
+    print(i)
+for i in copper.values(): # Print values
+    print(i)
+for i in copper.items(): # Print entire dict
+    print(i)
+```
+
+You can remove a key-value pair from a dictionary by using the del keyword:
+
+```Python
+my_dict = {
+'name': 'Michael',
+'occupation': 'Lumberjack'
+}
+
+del my_dict['occupation']
+```
+
 ## Set
 
