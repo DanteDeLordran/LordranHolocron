@@ -1,3 +1,3 @@
-# Config
+# About KMP
 
 Start typing here...

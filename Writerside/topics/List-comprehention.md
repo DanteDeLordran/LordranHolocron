@@ -1,4 +1,6 @@
-# List comprehension
+# Comprehensions
+
+## List comprehension
 
 In Python, a list comprehension is a construct that allows you to generate a new list by applying an expression to 
 each item in an existing iterable and optionally filtering items with a condition. Apart from being briefer, 
@@ -41,4 +43,10 @@ print(flat_list)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```Python
 primes = [num for num in range(2, 51) if all(num % i != 0 for i in range(2, int(num ** 0.5) + 1))]
 print(primes)  # Output: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+```
+
+## Dict comprehension
+
+```Python
+{key: val for key in dict}
 ```

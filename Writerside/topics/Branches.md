@@ -1,3 +1,3 @@
-# Config
+# Branches
 
 Start typing here...
