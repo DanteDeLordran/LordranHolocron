@@ -35,6 +35,7 @@
     </toc-element>
     <toc-element topic="Python.md">
         <toc-element topic="Overview.md"/>
+        <toc-element topic="UV-Python.md"/>
         <toc-element topic="Strings.md"/>
         <toc-element topic="Collections-in-Python.md"/>
         <toc-element topic="Lambdas-in-Python.md"/>
