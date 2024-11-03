@@ -1,6 +1,46 @@
 # Overview
 
-a
+Hi, I am Dante de Lordran, I've been a dev since the last 3 years, in this holocron I have the purpose to transform 
+this into a knowledge bank based on my current and future experience, all this holocron is written with my personal
+opinion and is not the only way or best way to work.
+
+Say no more
+
+## My current stack
+
+<table>
+    <tr>
+        <td align="center" width="100">Languages</td>
+            <td>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="60"  alt="Kotlin"/>&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" alt="Python" />&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="100">Frameworks & Tools</td>
+            <td>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="60" alt="Spring" />&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" width="60" alt="Svelte" />&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="70" alt="Docker" />&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" width="65" alt="Arch"/>&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="100">Databases</td>
+            <td>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="60" alt="Postgres" />&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="60" alt="Redis"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="100">Technologies I'm interested in</td>
+            <td>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="60" alt="PyTorch"/>&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="60" alt="Go" />&nbsp;
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="60" alt="AWS"/>&nbsp;
+            </td>
+        </tr>
+</table>
 
 ## Inject XML
 For example, this is how you inject a procedure:
@@ -14,28 +54,6 @@ For example, this is how you inject a procedure:
         <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
     </step>
 </procedure>
-
-## Add interactive elements
-
-### Tabs
-To add switchable content, you can make use of tabs (inject them by starting to type `tab` on a new line):
-
-<tabs>
-    <tab title="Markdown">
-        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
-    </tab>
-    <tab title="Semantic markup">
-        <code-block lang="xml">
-            <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
-    </tab>
-</tabs>
-
-### Convert selection to XML
-If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
-For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
-Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
-
-<img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
 
 ## Feedback
 Please report any issues, improvements, or feature requests to the

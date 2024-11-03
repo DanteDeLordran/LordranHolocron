@@ -1,3 +1,16 @@
-# Lordran Holocron
+Stacks
 
-This repository has the objective to be a knowledge bank for sharing my dev experience
+POST
+-Postgres
+-SvelteKit
+-Tailwind
+-Bun
+-Drizzle
+
+
+GOAT
+-Go
+-Alpine
+-Templ
+-HTMX
+-Tailwind

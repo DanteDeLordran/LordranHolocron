@@ -7,6 +7,13 @@
                  start-page="starter.md">
 
     <toc-element topic="starter.md"/>
+    <toc-element topic="Linux-Command-Line.md">
+        <toc-element topic="About-Linux.md"/>
+        <toc-element topic="Arch.md">
+            <toc-element topic="pacman.md"/>
+            <toc-element topic="AUR.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Git.md">
         <toc-element topic="Git-overview.md"/>
         <toc-element topic="First-steps.md"/>
@@ -15,14 +22,7 @@
         <toc-element topic="Branches.md"/>
         <toc-element topic="Merge.md"/>
         <toc-element topic="Cherry-Pick.md"/>
-        <toc-element topic="Rebase.md">
-        </toc-element>
-    </toc-element>
-    <toc-element topic="Linux-Command-Line.md">
-        <toc-element topic="About-Linux.md"/>
-        <toc-element topic="Arch.md">
-            <toc-element topic="pacman.md"/>
-        </toc-element>
+        <toc-element topic="Rebase.md"/>
     </toc-element>
     <toc-element topic="Docker.md">
         <toc-element topic="Docker-overview.md"/>
@@ -33,12 +33,16 @@
         <toc-element topic="Networks.md"/>
         <toc-element topic="Docker-compose.md"/>
     </toc-element>
+    <toc-element topic="Kubernetes.md">
+        <toc-element topic="About-K8.md"/>
+    </toc-element>
     <toc-element topic="Python.md">
         <toc-element topic="Overview.md"/>
+        <toc-element topic="UV-Python.md"/>
         <toc-element topic="Strings.md"/>
         <toc-element topic="Collections-in-Python.md"/>
-        <toc-element topic="Lambdas-in-Python.md"/>
         <toc-element topic="Loops-in-Python.md"/>
+        <toc-element topic="Lambdas-in-Python.md"/>
         <toc-element topic="List-comprehention.md"/>
         <toc-element topic="REGEX-in-Python.md"/>
         <toc-element topic="File-handling-in-Python.md"/>
@@ -61,6 +65,17 @@
     </toc-element>
     <toc-element topic="Kotlin.md">
         <toc-element topic="About-Kotlin.md"/>
+        <toc-element topic="Strings-in-Kotlin.md"/>
+        <toc-element topic="Collections-in-Kotlin.md"/>
+        <toc-element topic="Loops-in-Kotlin.md"/>
+        <toc-element topic="Kotlin-Math.md"/>
+        <toc-element topic="Classes-in-Kotlin.md"/>
+        <toc-element topic="Object.md"/>
+        <toc-element topic="Java-Time.md"/>
+        <toc-element topic="Kotlin-Streams.md">
+        </toc-element>
+        <toc-element topic="Gradle.md"/>
+        <toc-element topic="Coroutines-in-Kotlin.md"/>
         <toc-element topic="Kotlin-Multiplatform.md">
             <toc-element topic="About-KMP.md"/>
         </toc-element>
@@ -70,6 +85,7 @@
     </toc-element>
     <toc-element topic="Svelte.md">
         <toc-element topic="About-Svelte.md"/>
+        <toc-element topic="Runes.md"/>
         <toc-element topic="SvelteKit.md">
             <toc-element topic="About-SvelteKit.md"/>
         </toc-element>
