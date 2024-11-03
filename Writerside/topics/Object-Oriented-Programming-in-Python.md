@@ -125,3 +125,9 @@ print(obj.instance_method())  # Output: 10
 print(MyClass.class_method())  # Output: 42
 print(MyClass.static_method())  # Output: This is a static method.
 ```
+
+## Special class variables
+
+### slots
+
+```__slots__()```
