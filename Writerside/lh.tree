@@ -52,6 +52,9 @@
         <toc-element topic="Generators-in-Python.md"/>
         <toc-element topic="Multithreading-in-Python.md"/>
         <toc-element topic="Multiprocessing-in-Python.md"/>
+        <toc-element topic="Algebra-with-Python.md">
+            <toc-element topic="Proportions.md"/>
+        </toc-element>
         <toc-element topic="NumPy.md">
             <toc-element topic="About-NumPy.md"/>
         </toc-element>
@@ -86,6 +89,13 @@
     <toc-element topic="Svelte.md">
         <toc-element topic="About-Svelte.md"/>
         <toc-element topic="Runes.md"/>
+        <toc-element topic="Reactivity-in-Svelte.md"/>
+        <toc-element topic="Props-in-Svelte.md"/>
+        <toc-element topic="Logic-in-Svelte.md"/>
+        <toc-element topic="Events-in-Svelte.md"/>
+        <toc-element topic="Bindings-in-Svelte.md"/>
+        <toc-element topic="Styles-in-Svelte.md"/>
+        <toc-element topic="Actions-in-Svelte.md"/>
         <toc-element topic="SvelteKit.md">
             <toc-element topic="About-SvelteKit.md"/>
         </toc-element>
