@@ -9,6 +9,7 @@
     <toc-element topic="starter.md"/>
     <toc-element topic="Linux-Command-Line.md">
         <toc-element topic="About-Linux.md"/>
+        <toc-element topic="Directory-structure.md"/>
         <toc-element topic="Arch.md">
             <toc-element topic="pacman.md"/>
             <toc-element topic="AUR.md"/>
@@ -47,8 +48,9 @@
         <toc-element topic="REGEX-in-Python.md"/>
         <toc-element topic="File-handling-in-Python.md"/>
         <toc-element topic="Object-Oriented-Programming-in-Python.md"/>
-        <toc-element topic="Iterators.md"/>
         <toc-element topic="Decorators-in-Python.md"/>
+        <toc-element topic="Iterators.md"/>
+        <toc-element topic="Itertools.md"/>
         <toc-element topic="Generators-in-Python.md"/>
         <toc-element topic="Multithreading-in-Python.md"/>
         <toc-element topic="Multiprocessing-in-Python.md"/>
@@ -87,6 +89,7 @@
         </toc-element>
     </toc-element>
     <toc-element topic="Svelte.md">
+        <toc-element topic="Svelte-Special-Elements.md"/>
         <toc-element topic="About-Svelte.md"/>
         <toc-element topic="Runes.md"/>
         <toc-element topic="Reactivity-in-Svelte.md"/>
@@ -96,6 +99,10 @@
         <toc-element topic="Bindings-in-Svelte.md"/>
         <toc-element topic="Styles-in-Svelte.md"/>
         <toc-element topic="Actions-in-Svelte.md"/>
+        <toc-element topic="Transitions-in-Svelte.md"/>
+        <toc-element topic="Advanced-Reactivity-in-Svelte.md"/>
+        <toc-element topic="Stores-in-Svelte.md"/>
+        <toc-element topic="Context-in-Svelte.md"/>
         <toc-element topic="SvelteKit.md">
             <toc-element topic="About-SvelteKit.md"/>
         </toc-element>
