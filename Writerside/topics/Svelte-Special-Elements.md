@@ -81,3 +81,11 @@ that fire on document.body. This is useful with the mouseenter and mouseleave ev
 
 ## Svelte head
 
+The 'svelte:head' element allows you to insert elements inside the 'head' of your document. This is useful for things 
+like 'title' and 'meta' tags, which are critical for good SEO.
+
+```HTML
+<svelte:head>
+	<link rel="stylesheet" href="/tutorial/stylesheets/{selected}.css" />
+</svelte:head>
+```
