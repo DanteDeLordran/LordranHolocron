@@ -104,7 +104,10 @@
         <toc-element topic="Stores-in-Svelte.md"/>
         <toc-element topic="Context-in-Svelte.md"/>
         <toc-element topic="SvelteKit.md">
+            <toc-element topic="Forms-in-SvelteKit.md"/>
             <toc-element topic="About-SvelteKit.md"/>
+            <toc-element topic="Loading-Data-in-SvelteKit.md"/>
+            <toc-element topic="Cookies-in-SvelteKit.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>
