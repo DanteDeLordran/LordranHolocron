@@ -77,7 +77,7 @@ causing chaos, it’s important to validate form data.
 The first line of defense is the browser’s built-in form validation, which makes it easy to, for example, mark an 
 'input' as required
 
-```
+```HTML
 <form method="POST" action="?/create">
 	<label>
 		add a todo:
