@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5572d327">
+        <description>Created after removal of "About Go" from Lordran Holocron</description>
+        <accepts>Go-overview.html</accepts>
+    </rule>
+    <rule id="2a4ce575">
+        <description>Created after removal of "Go pointers" from Lordran Holocron</description>
+        <accepts>Go-pointers.html</accepts>
+    </rule>
+    <rule id="3986daff">
+        <description>Created after removal of "Go" from Lordran Holocron</description>
+        <accepts>Go.html</accepts>
+    </rule>
+</rules>
