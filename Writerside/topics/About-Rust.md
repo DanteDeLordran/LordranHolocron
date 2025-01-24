@@ -1,0 +1,3 @@
+# About Rust
+
+Start typing here...
